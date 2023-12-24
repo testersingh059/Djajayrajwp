@@ -18,21 +18,7 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 	<?php wp_head(); ?>
-	 <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
- <script>
-  window.googletag = window.googletag || {cmd: []};
-  googletag.cmd.push(function() {
-    googletag.defineSlot('/22961366005/ad_interstitial', [320, 480], 'div-gpt-ad-1702560319218-0').addService(googletag.pubads());
-    googletag.enableServices();
-  });
-</script>
-<div id="div-gpt-ad-1702560319218-0" style="min-width: 320px; min-height: 480px;">
-<script>
-    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1702560319218-0'); });
-  </script>
-  </div>  
-	
-<script>window.googletag=window.googletag||{cmd:[]};var anchorSlot,staticSlot;googletag.cmd.push(function(){anchorSlot=googletag.defineOutOfPageSlot("/22961366005/BTM_ANCHOR",googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR);if(anchorSlot){anchorSlot.setTargeting('typ',['g']).addService(googletag.pubads());googletag.pubads().addEventListener("slotOnload",function(event){});}googletag.enableServices();});googletag.cmd.push(function(){googletag.display(anchorSlot);});</script>
+
 
 </head>
 
