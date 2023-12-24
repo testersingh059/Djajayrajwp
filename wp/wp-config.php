@@ -90,7 +90,7 @@ $table_prefix = isset($_ENV['TABLE_PREFIX']) ? $_ENV['TABLE_PREFIX'] : 'wp_';
 define( 'WP_DEBUG', false );
 
 /** Change Media Upload Directory */
-/** define('UPLOADS', 'https://djajayraj.nyc3.digitaloceanspaces.com'.'media'); */
+define('upload_path', 'https://djajayraj.nyc3.digitaloceanspaces.com'.'media');
 
 
 /* Add any custom values between this line and the "stop editing" line. */
