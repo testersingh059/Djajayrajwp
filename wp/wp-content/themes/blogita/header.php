@@ -110,12 +110,12 @@
 		</div>
 	</div>
 
-	 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TG7NN60NDW"></script>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QN9703L0BX"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-TG7NN60NDW');
+  gtag('config', 'G-QN9703L0BX');
 </script>
