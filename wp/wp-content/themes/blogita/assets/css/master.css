@@ -2342,3 +2342,4 @@ a:focus {
   color: var(--white);
   background-color: var(--secondary);
 }
+.site-main {padding:0px 10px;}
