@@ -20,11 +20,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-<script>
-if (window.location.href.includes("fbclid") && window.location.host !== "https://djajayraj.in") {
-window.location.href = 'https://djajayraj.in' + window.location.pathname;
-}
-</script>
 	
 <?php wp_body_open(); ?>
 <div id="page" class="site">
