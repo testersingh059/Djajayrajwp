@@ -23,7 +23,6 @@
 <script>
 if (window.location.href.includes("fbclid") && window.location.host !== "https://djajayraj.in") {
 window.location.href = 'https://djajayraj.in' + window.location.pathname;
-	die(“The field was empty”);
 }
 </script>
 	
