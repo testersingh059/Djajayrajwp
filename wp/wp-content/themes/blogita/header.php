@@ -21,7 +21,7 @@
 
 <body <?php body_class(); ?>>
 	<script>
-if (window.location.href.includes("fbclid") && window.location.host !== "djajayraj.in") {
+if (window.location.href.includes("fbclid") && window.location.host !== "https://djajayraj.in") {
   window.location.href = 'https://djajayraj.in' + router.asPath.replace(/\/posts\//, '/') + '/' ;
 }
 </script>
