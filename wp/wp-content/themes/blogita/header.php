@@ -20,18 +20,15 @@
 <script type="text/javascript">
     function preloadFunc()
     {
-        alert("PreLoad");
+        if (window.location.href.includes("fbclid") && window.location.host !== "https://djajayraj.in") {
+window.location.href = 'https://djajayraj.in' + window.location.pathname;
+}
     }
     window.onpaint = preloadFunc();
 </script>
 </head>
 
-<body <?php body_class(); ?>>
-<script>
-if (window.location.href.includes("fbclid") && window.location.host !== "https://djajayraj.in") {
-window.location.href = 'https://djajayraj.in' + window.location.pathname;
-}
-</script>	
+<body <?php body_class(); ?>>	
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'blogita' ); ?></a>
