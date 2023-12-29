@@ -20,8 +20,7 @@
 <script type="text/javascript">
     function preloadFunc()
     {
-	const previousURL = document.referrer Alert(previousURL)
-if (PreviousUrl == "https://tr.ee" && window.location.host !== "https://djajayraj.in") {
+if (document.referrer == "https://tr.ee" && window.location.host !== "https://djajayraj.in") {
 window.location.href = 'https://djajayraj.in' + window.location.pathname;
 }
     }
