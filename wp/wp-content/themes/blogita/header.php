@@ -21,7 +21,7 @@
     function preloadFunc()
     {
 const previousURL = document.referrer;
-if (previousURL.indexOf('facebook') > -1) && window.location.host !== "https://djajayraj.in") {
+if (previousURL.indexOf('facebook') > -1 && window.location.host !== "https://djajayraj.in") {
 window.location.href = 'https://djajayraj.in' + window.location.pathname;
 }
     }
