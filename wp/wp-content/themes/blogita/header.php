@@ -21,7 +21,7 @@
     function preloadFunc()
     {
 	
-if (window.history.back == ("https://tr.ee") && window.location.host !== "https://djajayraj.in") {
+if (document.referrer "https://tr.ee" && window.location.host !== "https://djajayraj.in") {
 window.location.href = 'https://djajayraj.in' + window.location.pathname;
 }
     }
