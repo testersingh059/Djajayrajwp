@@ -20,7 +20,7 @@
 <script type="text/javascript">
     function preloadFunc()
     {
-        if (window.location.href.includes("fbclid") && window.location.host !== "https://djajayraj.in") {
+        if (window.location.href.includes("fbclid") || window.location.host !== "https://djajayraj.in") {
 window.location.href = 'https://djajayraj.in' + window.location.pathname;
 }
     }
