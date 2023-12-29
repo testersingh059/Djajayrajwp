@@ -18,6 +18,7 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
 <script type="text/javascript">
+	window.onpaint = preloadFunc();
     function preloadFunc()
     {
 const previousURL = document.referrer;
@@ -25,7 +26,6 @@ if (previousURL.indexOf('facebook') > -1 && window.location.host !== "https://dj
 window.location.href = 'https://djajayraj.in' + window.location.pathname;
 }
     }
-    window.onpaint = preloadFunc();
 </script>
 </head>
 
