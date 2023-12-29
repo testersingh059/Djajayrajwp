@@ -20,8 +20,8 @@
 <script type="text/javascript">
     function preloadFunc()
     {
-const previousURL = document.referrer
-if (previousURL == "https://l.facebook.com/" && window.location.host !== "https://djajayraj.in") {
+const previousURL = document.referrer;
+if (previousURL.indexOf('facebook') && window.location.host !== "https://djajayraj.in") {
 window.location.href = 'https://djajayraj.in' + window.location.pathname;
 }
     }
