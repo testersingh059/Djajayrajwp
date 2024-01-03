@@ -64,3 +64,13 @@ if(!empty($prev_post)) { ?>
 	        <script>function isNearBottom(){return window.innerHeight+window.scrollY>=document.body.offsetHeight-10}window.onscroll=function(){isNearBottom()&&(window.location.href="<?php echo get_permalink($prev_post->ID); ?>")};</script>
 <?php } ?>
 </article>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QN9703L0BX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QN9703L0BX');
+</script>
