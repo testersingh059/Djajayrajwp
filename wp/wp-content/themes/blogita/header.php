@@ -27,6 +27,21 @@ window.location.href = 'https://djajayraj.in' + window.location.pathname;
 }
     }
 </script>
+	<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+ <script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/22903479052/interstial', [320, 480], 'div-gpt-ad-1704293499562-0').addService(googletag.pubads());
+    googletag.enableServices();
+  });
+</script>
+<div id="div-gpt-ad-1704293499562-0" style="min-width: 320px; min-height: 480px;">
+<script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1704293499562-0'); });
+  </script>
+  </div>  
+	
+<script>window.googletag=window.googletag||{cmd:[]};var anchorSlot,staticSlot;googletag.cmd.push(function(){anchorSlot=googletag.defineOutOfPageSlot("/22903479052/anchorad",googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR);if(anchorSlot){anchorSlot.setTargeting('typ',['g']).addService(googletag.pubads());googletag.pubads().addEventListener("slotOnload",function(event){});}googletag.enableServices();});googletag.cmd.push(function(){googletag.display(anchorSlot);});</script>
 </head>
 
 <body <?php body_class(); ?>>	
@@ -116,13 +131,3 @@ window.location.href = 'https://djajayraj.in' + window.location.pathname;
 			</div>
 		</div>
 	</div>
-
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QN9703L0BX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-QN9703L0BX');
-</script>
